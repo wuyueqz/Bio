@@ -1,2 +1,2 @@
-# Bio
-This is the bio page of Yue Wu
+# Index
+This is the index page of Yue Wu
