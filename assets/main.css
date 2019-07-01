@@ -1,17 +1,17 @@
 @keyframes out-mask-out {
   0% {
-    -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-    mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; }
+    -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+    mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; }
   100% {
-    -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 1ex -1ex/contain;
-    mask: url(/assets/icons/svg/out.svg) no-repeat 1ex -1ex/contain; } }
+    -webkit-mask: url(./icons/svg/out.svg) no-repeat 1ex -1ex/contain;
+    mask: url(./icons/svg/out.svg) no-repeat 1ex -1ex/contain; } }
 @keyframes out-mask-in {
   0% {
-    -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat -1ex 1ex/contain;
-    mask: url(/assets/icons/svg/out.svg) no-repeat -1ex 1ex/contain; }
+    -webkit-mask: url(./icons/svg/out.svg) no-repeat -1ex 1ex/contain;
+    mask: url(./icons/svg/out.svg) no-repeat -1ex 1ex/contain; }
   100% {
-    -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-    mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+    -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+    mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
 .t-black + .t-black,
 .t-dark + .t-dark,
 .t-dark + .t-black,
@@ -444,7 +444,6 @@ th {
   height: 1.4ex;
   margin-left: .4ch;
   margin-right: .1ch;
-  background-image: url(/assets/images/emotes/bleedpurple.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -1790,7 +1789,7 @@ th {
     .c-card--lead-in .c-card__heading {
       text-align: left;
       margin-bottom: 1em;
-      font-size: 28px; }
+      font-size: 10px; }
       .t-light .c-card--lead-in .c-card__heading, [class*="t-"] .t-light .c-card--lead-in .c-card__heading, [class*="t-"] [class*="t-"] .t-light .c-card--lead-in .c-card__heading {
         color: #000000; }
       .t-dark .c-card--lead-in .c-card__heading, [class*="t-"] .t-dark .c-card--lead-in .c-card__heading, [class*="t-"] [class*="t-"] .t-dark .c-card--lead-in .c-card__heading {
@@ -1820,7 +1819,7 @@ th {
       height: 16px;
       margin-left: .4ch;
       margin-right: .1ch;
-      background-image: url(/assets/icons/svg/verified.svg);
+      background-image: url(./icons/svg/verified.svg);
       background-repeat: no-repeat;
       background-size: contain;
       transform: translateZ(0);
@@ -1828,12 +1827,12 @@ th {
       position: absolute;
       right: 0;
       top: calc( 50% - 8px); }
-      @supports (-webkit-mask: url(/assets/icons/svg/verified.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/verified.svg) no-repeat 0 0/contain) {
+      @supports (-webkit-mask: url(./icons/svg/verified.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/verified.svg) no-repeat 0 0/contain) {
         .c-card--verified .c-card__heading::after {
           background-image: unset;
           background-color: currentColor;
-          -webkit-mask: url(/assets/icons/svg/verified.svg) no-repeat 0 0/contain;
-          mask: url(/assets/icons/svg/verified.svg) no-repeat 0 0/contain; } }
+          -webkit-mask: url(./icons/svg/verified.svg) no-repeat 0 0/contain;
+          mask: url(./icons/svg/verified.svg) no-repeat 0 0/contain; } }
   .c-card--followed::after {
     content: "";
     display: block;
@@ -1843,7 +1842,7 @@ th {
     height: 40px;
     width: 100%;
     background-color: #EEE9F6;
-    background-image: url(/assets/icons/svg/heart.svg);
+    background-image: url(/icons/svg/heart.svg);
     background-size: auto 40%;
     background-repeat: no-repeat;
     background-position: center center; }
@@ -1854,8 +1853,8 @@ th {
     flex-direction: column;
     align-items: center; }
   .c-card__image {
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 140px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1879,7 +1878,7 @@ th {
     text-overflow: ellipsis;
     text-align: center;
     line-height: 1.2em;
-    font-size: 20px; }
+    font-size: 28px; }
     .t-light .c-card__heading, [class*="t-"] .t-light .c-card__heading, [class*="t-"] [class*="t-"] .t-light .c-card__heading {
       color: #FFC408; }
     .t-dark .c-card__heading, [class*="t-"] .t-dark .c-card__heading, [class*="t-"] [class*="t-"] .t-dark .c-card__heading {
@@ -1891,9 +1890,9 @@ th {
         font-size: calc(20px + 8 * (100vw - 320px) / 1046); } }
     @media (min-width: 1366px) {
       .c-card__heading {
-        font-size: 28px; } }
+        font-size: 16px; } }
   .c-card__subline {
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     margin-top: .4em;
     margin-bottom: 3rem; }
@@ -1908,7 +1907,7 @@ th {
         font-size: calc(16px + 2 * (100vw - 320px) / 1046); } }
     @media (min-width: 1366px) {
       .c-card__subline {
-        font-size: 18px; } }
+        font-size: 12px; } }
   .c-card__button {
     margin-top: .7em; }
 .c-chunky-form__input {
@@ -2180,17 +2179,17 @@ th {
     height: 0.9ex;
     margin-left: .4ch;
     margin-right: .1ch;
-    background-image: url(/assets/icons/svg/out.svg);
+    background-image: url(./icons/svg/out.svg);
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateZ(0);
     will-change: mask, -webkit-mask; }
-    @supports (-webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) {
+    @supports (-webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) {
       .c-link--outbound::after {
         background-image: unset;
         background-color: currentColor;
-        -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-        mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+        -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+        mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
   .c-link--outbound:hover::after {
     animation: out-mask-out .1s ease-in 1 forwards, out-mask-in .2s ease-in .1s 1 forwards; }
   .c-link--sacrificial {
@@ -2206,18 +2205,18 @@ th {
       height: 0.9ex;
       margin-left: .4ch;
       margin-right: .1ch;
-      background-image: url(/assets/icons/svg/out.svg);
+      background-image: url(./icons/svg/out.svg);
       background-repeat: no-repeat;
       background-size: contain;
       transform: translateZ(0);
       will-change: mask, -webkit-mask;
       animation: out-mask-out .1s ease-in 1 forwards, out-mask-in .2s ease-in .1s 1 forwards; }
-      @supports (-webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) {
+      @supports (-webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) {
         .c-link--sacrificial::after {
           background-image: unset;
           background-color: currentColor;
-          -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-          mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+          -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+          mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
   .c-link--anim-pixel:hover::before {
     opacity: 1;
     transition: -webkit-mask 0.2s steps(8), mask 0.2s steps(8);
@@ -2364,17 +2363,17 @@ th {
     height: 0.9ex;
     margin-left: .4ch;
     margin-right: .1ch;
-    background-image: url(/assets/icons/svg/out.svg);
+    background-image: url(./icons/svg/out.svg);
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateZ(0);
     will-change: mask, -webkit-mask; }
-    @supports (-webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) {
+    @supports (-webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) {
       .c-button--outbound::after {
         background-image: unset;
         background-color: currentColor;
-        -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-        mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+        -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+        mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
   .c-button--outbound:hover::after {
     animation: out-mask-out .1s ease-in 1 forwards, out-mask-in .2s ease-in .1s 1 forwards; }
   .c-button--disabled {
@@ -3589,17 +3588,17 @@ th {
     height: 1ex;
     margin-left: .4ch;
     margin-right: .1ch;
-    background-image: url(/assets/icons/svg/out.svg);
+    background-image: url(./icons/svg/out.svg);
     background-repeat: no-repeat;
     background-size: contain;
     transform: translateZ(0);
     will-change: mask, -webkit-mask; }
-    @supports (-webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) {
+    @supports (-webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) {
       .c-influence-link a--outbound::after {
         background-image: unset;
         background-color: currentColor;
-        -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-        mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+        -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+        mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
   .c-influence-link a--outbound:hover::after {
     animation: out-mask-out .1s ease-in 1 forwards, out-mask-in .2s ease-in .1s 1 forwards; }
   .c-influence-link a--sacrificial {
@@ -3614,18 +3613,18 @@ th {
       height: 1ex;
       margin-left: .4ch;
       margin-right: .1ch;
-      background-image: url(/assets/icons/svg/out.svg);
+      background-image: url(./icons/svg/out.svg);
       background-repeat: no-repeat;
       background-size: contain;
       transform: translateZ(0);
       will-change: mask, -webkit-mask;
       animation: out-mask-out .1s ease-in 1 forwards, out-mask-in .2s ease-in .1s 1 forwards; }
-      @supports (-webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain) {
+      @supports (-webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) or (mask: url(./icons/svg/out.svg) no-repeat 0 0/contain) {
         .c-influence-link a--sacrificial::after {
           background-image: unset;
           background-color: currentColor;
-          -webkit-mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain;
-          mask: url(/assets/icons/svg/out.svg) no-repeat 0 0/contain; } }
+          -webkit-mask: url(./icons/svg/out.svg) no-repeat 0 0/contain;
+          mask: url(./icons/svg/out.svg) no-repeat 0 0/contain; } }
   .c-influence-link a--anim-pixel:hover::before {
     opacity: 1;
     transition: -webkit-mask 0.2s steps(8), mask 0.2s steps(8);
