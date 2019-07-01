@@ -44,8 +44,8 @@
   font-stretch: normal;
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/graphik/graphik-regular.eot");
-  src: url("/assets/fonts/graphik/graphik-regular.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/graphik/graphik-regular.woff2") format("woff2"), url("/assets/fonts/graphik/graphik-regular.woff") format("woff"); }
+  src: url("fonts/graphik/graphik-regular.eot");
+  src: url("fonts/graphik/graphik-regular.eot?#iefix") format("embedded-opentype"), url("fonts/graphik/graphik-regular.woff2") format("woff2"), url("fonts/graphik/graphik-regular.woff") format("woff"); }
 /*! sass-bem-constructor - version : 1.1.0 - 2016-08-18 */
 * {
   -moz-osx-font-smoothing: grayscale;
