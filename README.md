@@ -1,2 +1,2 @@
-# MIT 1.125
-This is a repository for MIT 1.125 Applied Blockchain
+# Yue Wu - Portfolio
+This is a repository for Yue Wu's Design Portfolio for Space, Products and Data Science
