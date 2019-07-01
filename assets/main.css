@@ -203,7 +203,7 @@ th {
   line-height: 100%; }
   @media (min-width: 1600px) {
     .u-type-panel-text {
-      font-size: 54px; } }
+      font-size: 44px; } }
   @media (max-width: 800px) {
     .u-type-panel-text {
       font-size: 27px; } }
@@ -329,9 +329,9 @@ th {
 .t-light .u-type-faint, [class*="t-"] .t-light .u-type-faint, [class*="t-"] [class*="t-"] .t-light .u-type-faint {
   color: #EEE9F6 !important; }
 .t-dark .u-type-faint, [class*="t-"] .t-dark .u-type-faint, [class*="t-"] [class*="t-"] .t-dark .u-type-faint {
-  color: #A69DBB !important; }
+  color: #FFC408 !important; }
 .t-black .u-type-faint, [class*="t-"] .t-black .u-type-faint, [class*="t-"] [class*="t-"] .t-black .u-type-faint {
-  color: #A69DBB !important; }
+  color: #FFC408 !important; }
 .u-sixteen-nine {
   position: relative; }
   .u-sixteen-nine:before {
@@ -1853,7 +1853,7 @@ th {
     flex-direction: column;
     align-items: center; }
   .c-card__image {
-    width: 180px;
+    width: 140px;
     height: 140px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2309,8 +2309,8 @@ th {
     background-color: #FFC408;
     border-color: #FFC408; }
   .t-light .c-button:hover, [class*="t-"] .t-light .c-button:hover, [class*="t-"] [class*="t-"] .t-light .c-button:hover {
-    background-color: #543391;
-    border-color: #543391; }
+    background-color: #000000;
+    border-color: #000000; }
   .t-dark .c-button:hover, [class*="t-"] .t-dark .c-button:hover, [class*="t-"] [class*="t-"] .t-dark .c-button:hover {
     background-color: #EEEEEE;
     border-color: #EEEEEE; }
