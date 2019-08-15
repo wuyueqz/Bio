@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"> 
+     <meta name="theme-color" content="#000000">
+     <link rel="shortcut icon" href="./assets/static/media/yue.ico">
+     <link rel="apple-touch-icon" sizes="152x152" href="./assets/static/media/yue.ico"> 
+     <link rel="icon" type="image/png" sizes="32x32" href="./assets/static/media/yue.ico"> 
+     <link rel="icon" type="image/png" sizes="16x16" href="./assets/static/media/yue.ico"> 
+     <link rel="mask-icon" href="./assets/static/media/yue.ico" color="#5bbad5"> 
+     <meta name="theme-color" content="#FAFAFA"> 
+    <meta property="og:url" content="http://wuyueqz.github.io/ux/shinshilla.html">
+    <meta property="og:type" content="shinshilla">
+    <meta property="og:title" content="Yue Wu - Shinshilla">
+    <meta property="og:description" content="UX Project - Shinshilla">
+
+     <title>Yue Wu - Shinshilla</title> 
+     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+     <script type="text/javascript">!function(i){if(i.search){var l={};i.search.slice(1).split("&").forEach(function(i){var a=i.split("=");l[a[0]]=a.slice(1).join("=").replace(/~and~/g,"&")}),void 0!==l.p&&window.history.replaceState(null,null,i.pathname.slice(0,-1)+(l.p||"")+(l.q?"?"+l.q:"")+i.hash)}}(window.location)</script>
+
+ <link href="./assets/static/css/main.css" rel="stylesheet"> 
+ <style> 
+ </style> 
+ <style piggy-ext="" data-styled-version="4.2.0"> 
+ </style> 
+ <style type="text/css">
+    @font-face {
+        font-family: 'Multicolore';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Multicolore'), local('Multicolore'),
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/Multicolore.ttf.woff') format('woff'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/fhNmDCnjccoUYyU4ZASaLVKPGs1ZzpMvnHX-7fPOuAc.woff2') format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/BJVWev7_auVaQ__OU8Qih1KPGs1ZzpMvnHX-7fPOuAc.woff2') format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/oysROHFTu1eTZ74Hcf8V-VKPGs1ZzpMvnHX-7fPOuAc.woff2') format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('PT Sans'), local('PTSans-Regular'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/CWlc_g68BGYDSGdpJvpktgLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/kTYfCWJhlldPf5LnG4ZnHAsYbbCjybiHxArTLjt7FRU.woff2') format('woff2');
+        unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/g46X4VH_KHOWAAa-HpnGPgsYbbCjybiHxArTLjt7FRU.woff2') format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/hpORcvLZtemlH8gI-1S-7gsYbbCjybiHxArTLjt7FRU.woff2') format('woff2');
+        unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('PT Sans Bold'), local('PTSans-Bold'), 
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/ptsans-v8/0XxGQsSc1g4rdRdjJKZrNAzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'),
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/open-sans-v13-latin-regular.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    }
+    /* open-sans-600 - latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/open-sans-v13-latin-600.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    }
+    /* open-sans-700 - latin */
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'),
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/open-sans-v13-latin-700.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    }
+    /* fontawesome-webfont */
+    @font-face {
+        font-family: 'FontAwesome';
+        font-style: normal;
+        src: local('Font Awesome'), local('FontAwesome'),
+        url('chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/fontawesome-webfont.woff2') format('woff2'); /* Chrome 26+, Opera 23+, Firefox 39+ */
+    }
+    /* Roboto */
+    
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fCRc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fABc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* greek-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fCBc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF;
+    }
+    /* greek */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fBxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0370-03FF;
+    }
+    /* vietnamese */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fCxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fChc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        src: local('Roboto Medium'), local('Roboto-Medium'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* greek-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF;
+    }
+    /* greek */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0370-03FF;
+    }
+    /* vietnamese */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        src: local('Roboto Bold'), local('Roboto-Bold'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+    /* cyrillic-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfCRc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+    /* cyrillic */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfABc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+    /* greek-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfCBc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+1F00-1FFF;
+    }
+    /* greek */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfBxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0370-03FF;
+    }
+    /* vietnamese */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfCxc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfChc4AMP6lbBP.woff2) format('woff2');
+        unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        src: local('Roboto Black'), local('Roboto-Black'), url(chrome-extension://hfapbcheiepjppjbnkphkmegjlipojba/fonts/roboto/KFOlCnqEu92Fr1MmYUtfBBc4AMP6lQ.woff2) format('woff2');
+        unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+</style> 
+ <style type="text/css">.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle,.react-datepicker__month-read-view--down-arrow,.react-datepicker__month-year-read-view--down-arrow,.react-datepicker__year-read-view--down-arrow{margin-left:-8px;position:absolute}.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle:before,.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle,.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle:before,.react-datepicker__month-read-view--down-arrow,.react-datepicker__month-read-view--down-arrow:before,.react-datepicker__month-year-read-view--down-arrow,.react-datepicker__month-year-read-view--down-arrow:before,.react-datepicker__year-read-view--down-arrow,.react-datepicker__year-read-view--down-arrow:before{box-sizing:content-box;position:absolute;border:8px solid transparent;height:0;width:1px}.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle:before,.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle:before,.react-datepicker__month-read-view--down-arrow:before,.react-datepicker__month-year-read-view--down-arrow:before,.react-datepicker__year-read-view--down-arrow:before{content:"";z-index:-1;border-width:8px;left:-8px;border-bottom-color:#aeaeae}.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle{top:0;margin-top:-8px}.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle,.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle:before{border-top:none;border-bottom-color:#f0f0f0}.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle:before{top:-1px;border-bottom-color:#aeaeae}.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle,.react-datepicker__month-read-view--down-arrow,.react-datepicker__month-year-read-view--down-arrow,.react-datepicker__year-read-view--down-arrow{bottom:0;margin-bottom:-8px}.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle,.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle:before,.react-datepicker__month-read-view--down-arrow,.react-datepicker__month-read-view--down-arrow:before,.react-datepicker__month-year-read-view--down-arrow,.react-datepicker__month-year-read-view--down-arrow:before,.react-datepicker__year-read-view--down-arrow,.react-datepicker__year-read-view--down-arrow:before{border-bottom:none;border-top-color:#fff}.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle:before,.react-datepicker__month-read-view--down-arrow:before,.react-datepicker__month-year-read-view--down-arrow:before,.react-datepicker__year-read-view--down-arrow:before{bottom:-1px;border-top-color:#aeaeae}.react-datepicker,.react-datepicker-wrapper{display:inline-block}.react-datepicker{font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.8rem;background-color:#fff;color:#000;border:1px solid #aeaeae;border-radius:.3rem;position:relative}.react-datepicker--time-only .react-datepicker__triangle{left:35px}.react-datepicker--time-only .react-datepicker__time-container{border-left:0}.react-datepicker--time-only .react-datepicker__time,.react-datepicker--time-only .react-datepicker__time-box{border-radius:.3rem}.react-datepicker__triangle{position:absolute;left:50px}.react-datepicker-popper{z-index:1}.react-datepicker-popper[data-placement^=bottom]{margin-top:10px}.react-datepicker-popper[data-placement^=top]{margin-bottom:10px}.react-datepicker-popper[data-placement^=right]{margin-left:8px}.react-datepicker-popper[data-placement^=right] .react-datepicker__triangle{left:auto;right:42px}.react-datepicker-popper[data-placement^=left]{margin-right:8px}.react-datepicker-popper[data-placement^=left] .react-datepicker__triangle{left:42px;right:auto}.react-datepicker__header{text-align:center;background-color:#f0f0f0;border-bottom:1px solid #aeaeae;border-top-left-radius:.3rem;border-top-right-radius:.3rem;padding-top:8px;position:relative}.react-datepicker__header--time{padding-bottom:8px;padding-left:5px;padding-right:5px}.react-datepicker__month-dropdown-container--scroll,.react-datepicker__month-dropdown-container--select,.react-datepicker__month-year-dropdown-container--scroll,.react-datepicker__month-year-dropdown-container--select,.react-datepicker__year-dropdown-container--scroll,.react-datepicker__year-dropdown-container--select{display:inline-block;margin:0 2px}.react-datepicker-time__header,.react-datepicker__current-month{margin-top:0;color:#000;font-weight:700;font-size:.944rem}.react-datepicker-time__header{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.react-datepicker__navigation{background:none;line-height:1.7rem;text-align:center;cursor:pointer;position:absolute;top:10px;width:0;padding:0;border:.45rem solid transparent;z-index:1;height:10px;width:10px;text-indent:-999em;overflow:hidden}.react-datepicker__navigation--previous{left:10px;border-right-color:#ccc}.react-datepicker__navigation--previous:hover{border-right-color:#b3b3b3}.react-datepicker__navigation--previous--disabled,.react-datepicker__navigation--previous--disabled:hover{border-right-color:#e6e6e6;cursor:default}.react-datepicker__navigation--next{right:10px;border-left-color:#ccc}.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button){right:80px}.react-datepicker__navigation--next:hover{border-left-color:#b3b3b3}.react-datepicker__navigation--next--disabled,.react-datepicker__navigation--next--disabled:hover{border-left-color:#e6e6e6;cursor:default}.react-datepicker__navigation--years{position:relative;top:0;display:block;margin-left:auto;margin-right:auto}.react-datepicker__navigation--years-previous{top:4px;border-top-color:#ccc}.react-datepicker__navigation--years-previous:hover{border-top-color:#b3b3b3}.react-datepicker__navigation--years-upcoming{top:-4px;border-bottom-color:#ccc}.react-datepicker__navigation--years-upcoming:hover{border-bottom-color:#b3b3b3}.react-datepicker__month-container{float:left}.react-datepicker__month{margin:.4rem;text-align:center}.react-datepicker__time-container{float:right;border-left:1px solid #aeaeae;width:70px}.react-datepicker__time-container--with-today-button{display:inline;border:1px solid #aeaeae;border-radius:.3rem;position:absolute;right:-72px;top:0}.react-datepicker__time-container .react-datepicker__time{position:relative;background:#fff}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box{width:70px;overflow-x:hidden;margin:0 auto;text-align:center}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list{list-style:none;margin:0;height:calc(195px + 0.85rem);overflow-y:scroll;padding-right:0;padding-left:0;width:100%;box-sizing:content-box}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item{height:30px;padding:5px 10px}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover{cursor:pointer;background-color:#f0f0f0}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected{background-color:#216ba5;color:#fff;font-weight:700}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected:hover{background-color:#216ba5}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled{color:#ccc}.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled:hover{cursor:default;background-color:transparent}.react-datepicker__week-number{color:#ccc;display:inline-block;width:1.7rem;line-height:1.7rem;text-align:center;margin:.166rem}.react-datepicker__week-number.react-datepicker__week-number--clickable{cursor:pointer}.react-datepicker__week-number.react-datepicker__week-number--clickable:hover{border-radius:.3rem;background-color:#f0f0f0}.react-datepicker__day-names,.react-datepicker__week{white-space:nowrap}.react-datepicker__day,.react-datepicker__day-name,.react-datepicker__time-name{color:#000;display:inline-block;width:1.7rem;line-height:1.7rem;text-align:center;margin:.166rem}.react-datepicker__day{cursor:pointer}.react-datepicker__day:hover{border-radius:.3rem;background-color:#f0f0f0}.react-datepicker__day--today{font-weight:700}.react-datepicker__day--highlighted{border-radius:.3rem;background-color:#3dcc4a;color:#fff}.react-datepicker__day--highlighted:hover{background-color:#32be3f}.react-datepicker__day--highlighted-custom-1{color:#f0f}.react-datepicker__day--highlighted-custom-2{color:green}.react-datepicker__day--in-range,.react-datepicker__day--in-selecting-range,.react-datepicker__day--selected{border-radius:.3rem;background-color:#216ba5;color:#fff}.react-datepicker__day--in-range:hover,.react-datepicker__day--in-selecting-range:hover,.react-datepicker__day--selected:hover{background-color:#1d5d90}.react-datepicker__day--keyboard-selected{border-radius:.3rem;background-color:#2a87d0;color:#fff}.react-datepicker__day--keyboard-selected:hover{background-color:#1d5d90}.react-datepicker__day--in-selecting-range:not(.react-datepicker__day--in-range){background-color:rgba(33,107,165,.5)}.react-datepicker__month--selecting-range .react-datepicker__day--in-range:not(.react-datepicker__day--in-selecting-range){background-color:#f0f0f0;color:#000}.react-datepicker__day--disabled{cursor:default;color:#ccc}.react-datepicker__day--disabled:hover{background-color:transparent}.react-datepicker__input-container{position:relative;display:inline-block}.react-datepicker__month-read-view,.react-datepicker__month-year-read-view,.react-datepicker__year-read-view{border:1px solid transparent;border-radius:.3rem}.react-datepicker__month-read-view:hover,.react-datepicker__month-year-read-view:hover,.react-datepicker__year-read-view:hover{cursor:pointer}.react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow,.react-datepicker__month-read-view:hover .react-datepicker__year-read-view--down-arrow,.react-datepicker__month-year-read-view:hover .react-datepicker__month-read-view--down-arrow,.react-datepicker__month-year-read-view:hover .react-datepicker__year-read-view--down-arrow,.react-datepicker__year-read-view:hover .react-datepicker__month-read-view--down-arrow,.react-datepicker__year-read-view:hover .react-datepicker__year-read-view--down-arrow{border-top-color:#b3b3b3}.react-datepicker__month-read-view--down-arrow,.react-datepicker__month-year-read-view--down-arrow,.react-datepicker__year-read-view--down-arrow{border-top-color:#ccc;float:right;margin-left:20px;top:8px;position:relative;border-width:.45rem}.react-datepicker__month-dropdown,.react-datepicker__month-year-dropdown,.react-datepicker__year-dropdown{background-color:#f0f0f0;position:absolute;width:50%;left:25%;top:30px;z-index:1;text-align:center;border-radius:.3rem;border:1px solid #aeaeae}.react-datepicker__month-dropdown:hover,.react-datepicker__month-year-dropdown:hover,.react-datepicker__year-dropdown:hover{cursor:pointer}.react-datepicker__month-dropdown--scrollable,.react-datepicker__month-year-dropdown--scrollable,.react-datepicker__year-dropdown--scrollable{height:150px;overflow-y:scroll}.react-datepicker__month-option,.react-datepicker__month-year-option,.react-datepicker__year-option{line-height:20px;width:100%;display:block;margin-left:auto;margin-right:auto}.react-datepicker__month-option:first-of-type,.react-datepicker__month-year-option:first-of-type,.react-datepicker__year-option:first-of-type{border-top-left-radius:.3rem;border-top-right-radius:.3rem}.react-datepicker__month-option:last-of-type,.react-datepicker__month-year-option:last-of-type,.react-datepicker__year-option:last-of-type{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border-bottom-left-radius:.3rem;border-bottom-right-radius:.3rem}.react-datepicker__month-option:hover,.react-datepicker__month-year-option:hover,.react-datepicker__year-option:hover{background-color:#ccc}.react-datepicker__month-option:hover .react-datepicker__navigation--years-upcoming,.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-upcoming,.react-datepicker__year-option:hover .react-datepicker__navigation--years-upcoming{border-bottom-color:#b3b3b3}.react-datepicker__month-option:hover .react-datepicker__navigation--years-previous,.react-datepicker__month-year-option:hover .react-datepicker__navigation--years-previous,.react-datepicker__year-option:hover .react-datepicker__navigation--years-previous{border-top-color:#b3b3b3}.react-datepicker__month-option--selected,.react-datepicker__month-year-option--selected,.react-datepicker__year-option--selected{position:absolute;left:15px}.react-datepicker__close-icon{background-color:transparent;border:0;cursor:pointer;outline:0;padding:0;vertical-align:middle;position:absolute;height:16px;width:16px;top:25%;right:7px}.react-datepicker__close-icon:after{background-color:#216ba5;border-radius:50%;bottom:0;box-sizing:border-box;color:#fff;content:"\D7";cursor:pointer;font-size:12px;height:16px;width:16px;line-height:1;margin:-8px auto 0;padding:2px;position:absolute;right:0;text-align:center}.react-datepicker__today-button{background:#f0f0f0;border-top:1px solid #aeaeae;cursor:pointer;text-align:center;font-weight:700;padding:5px 0;clear:left}.react-datepicker__portal{position:fixed;width:100vw;height:100vh;background-color:rgba(0,0,0,.8);left:0;top:0;justify-content:center;align-items:center;display:flex;z-index:2147483647}.react-datepicker__portal .react-datepicker__day,.react-datepicker__portal .react-datepicker__day-name,.react-datepicker__portal .react-datepicker__time-name{width:3rem;line-height:3rem}@media (max-height:550px),(max-width:400px){.react-datepicker__portal .react-datepicker__day,.react-datepicker__portal .react-datepicker__day-name,.react-datepicker__portal .react-datepicker__time-name{width:2rem;line-height:2rem}}.react-datepicker__portal .react-datepicker-time__header,.react-datepicker__portal .react-datepicker__current-month{font-size:1.44rem}.react-datepicker__portal .react-datepicker__navigation{border:.81rem solid transparent}.react-datepicker__portal .react-datepicker__navigation--previous{border-right-color:#ccc}.react-datepicker__portal .react-datepicker__navigation--previous:hover{border-right-color:#b3b3b3}.react-datepicker__portal .react-datepicker__navigation--previous--disabled,.react-datepicker__portal .react-datepicker__navigation--previous--disabled:hover{border-right-color:#e6e6e6;cursor:default}.react-datepicker__portal .react-datepicker__navigation--next{border-left-color:#ccc}.react-datepicker__portal .react-datepicker__navigation--next:hover{border-left-color:#b3b3b3}.react-datepicker__portal .react-datepicker__navigation--next--disabled,.react-datepicker__portal .react-datepicker__navigation--next--disabled:hover{border-left-color:#e6e6e6;cursor:default}
+.animatedPiggy{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated-min{-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animate-toggle{-webkit-animation-duration:.3s;animation-duration:.3s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceIt,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.flash{-webkit-animation-name:flash;animation-name:flash}@-webkit-keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes pulse{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}50%{-webkit-transform:scale3d(1.05,1.05,1.05);transform:scale3d(1.05,1.05,1.05)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.pulse{-webkit-animation-name:pulse;animation-name:pulse}@-webkit-keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes rubberBand{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}30%{-webkit-transform:scale3d(1.25,.75,1);transform:scale3d(1.25,.75,1)}40%{-webkit-transform:scale3d(.75,1.25,1);transform:scale3d(.75,1.25,1)}50%{-webkit-transform:scale3d(1.15,.85,1);transform:scale3d(1.15,.85,1)}65%{-webkit-transform:scale3d(.95,1.05,1);transform:scale3d(.95,1.05,1)}75%{-webkit-transform:scale3d(1.05,.95,1);transform:scale3d(1.05,.95,1)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.rubberBand{-webkit-animation-name:rubberBand;animation-name:rubberBand}@-webkit-keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-3px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(3px,0,0)}}@keyframes shake{0%,to{-webkit-transform:translateZ(0);transform:translateZ(0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-3px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(3px,0,0)}}.shake{-webkit-animation-name:shake;animation-name:shake}@-webkit-keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}@keyframes headShake{0%{-webkit-transform:translateX(0);transform:translateX(0)}6.5%{-webkit-transform:translateX(-6px) rotateY(-9deg);transform:translateX(-6px) rotateY(-9deg)}18.5%{-webkit-transform:translateX(5px) rotateY(7deg);transform:translateX(5px) rotateY(7deg)}31.5%{-webkit-transform:translateX(-3px) rotateY(-5deg);transform:translateX(-3px) rotateY(-5deg)}43.5%{-webkit-transform:translateX(2px) rotateY(3deg);transform:translateX(2px) rotateY(3deg)}50%{-webkit-transform:translateX(0);transform:translateX(0)}}.headShake{-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;-webkit-animation-name:headShake;animation-name:headShake}@-webkit-keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}@keyframes swing{20%{-webkit-transform:rotate(15deg);transform:rotate(15deg)}40%{-webkit-transform:rotate(-10deg);transform:rotate(-10deg)}60%{-webkit-transform:rotate(5deg);transform:rotate(5deg)}80%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}to{-webkit-transform:rotate(0deg);transform:rotate(0deg)}}.swing{-webkit-transform-origin:top center;transform-origin:top center;-webkit-animation-name:swing;animation-name:swing}@-webkit-keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes tada{0%{-webkit-transform:scaleX(1);transform:scaleX(1)}10%,20%{-webkit-transform:scale3d(.9,.9,.9) rotate(-3deg);transform:scale3d(.9,.9,.9) rotate(-3deg)}30%,50%,70%,90%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(3deg);transform:scale3d(1.1,1.1,1.1) rotate(3deg)}40%,60%,80%{-webkit-transform:scale3d(1.1,1.1,1.1) rotate(-3deg);transform:scale3d(1.1,1.1,1.1) rotate(-3deg)}to{-webkit-transform:scaleX(1);transform:scaleX(1)}}.tada{-webkit-animation-name:tada;animation-name:tada}@-webkit-keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}@keyframes wobble{0%{-webkit-transform:none;transform:none}15%{-webkit-transform:translate3d(-25%,0,0) rotate(-5deg);transform:translate3d(-25%,0,0) rotate(-5deg)}30%{-webkit-transform:translate3d(20%,0,0) rotate(3deg);transform:translate3d(20%,0,0) rotate(3deg)}45%{-webkit-transform:translate3d(-15%,0,0) rotate(-3deg);transform:translate3d(-15%,0,0) rotate(-3deg)}60%{-webkit-transform:translate3d(10%,0,0) rotate(2deg);transform:translate3d(10%,0,0) rotate(2deg)}75%{-webkit-transform:translate3d(-5%,0,0) rotate(-1deg);transform:translate3d(-5%,0,0) rotate(-1deg)}to{-webkit-transform:none;transform:none}}.wobble{-webkit-animation-name:wobble;animation-name:wobble}@-webkit-keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.39063deg) skewY(.39063deg);transform:skewX(.39063deg) skewY(.39063deg)}88.8%{-webkit-transform:skewX(-.19531deg) skewY(-.19531deg);transform:skewX(-.19531deg) skewY(-.19531deg)}}@keyframes jello{0%,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(-12.5deg) skewY(-12.5deg);transform:skewX(-12.5deg) skewY(-12.5deg)}33.3%{-webkit-transform:skewX(6.25deg) skewY(6.25deg);transform:skewX(6.25deg) skewY(6.25deg)}44.4%{-webkit-transform:skewX(-3.125deg) skewY(-3.125deg);transform:skewX(-3.125deg) skewY(-3.125deg)}55.5%{-webkit-transform:skewX(1.5625deg) skewY(1.5625deg);transform:skewX(1.5625deg) skewY(1.5625deg)}66.6%{-webkit-transform:skewX(-.78125deg) skewY(-.78125deg);transform:skewX(-.78125deg) skewY(-.78125deg)}77.7%{-webkit-transform:skewX(.39063deg) skewY(.39063deg);transform:skewX(.39063deg) skewY(.39063deg)}88.8%{-webkit-transform:skewX(-.19531deg) skewY(-.19531deg);transform:skewX(-.19531deg) skewY(-.19531deg)}}.jello{-webkit-animation-name:jello;animation-name:jello;-webkit-transform-origin:center;transform-origin:center}@-webkit-keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes bounceIn{0%,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scaleX(1);transform:scaleX(1)}}.bounceIn{-webkit-animation-name:bounceIn;animation-name:bounceIn}@-webkit-keyframes bounceIt{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}90%{-webkit-transform:translate3d(0,-1px,0);transform:translate3d(0,-1px,0)}}@keyframes bounceIt{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06);-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}90%{-webkit-transform:translate3d(0,-1px,0);transform:translate3d(0,-1px,0)}}.bounceIt{-webkit-animation-name:bounceIt;animation-name:bounceIt;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInDown{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,-3000px,0);transform:translate3d(0,-3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,25px,0);transform:translate3d(0,25px,0)}75%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}90%{-webkit-transform:translate3d(0,5px,0);transform:translate3d(0,5px,0)}to{-webkit-transform:none;transform:none}}.bounceInDown{-webkit-animation-name:bounceInDown;animation-name:bounceInDown}@-webkit-keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInLeft{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInLeft{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft}@-webkit-keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}@keyframes bounceInRight{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}90%{-webkit-transform:translate3d(-5px,0,0);transform:translate3d(-5px,0,0)}to{-webkit-transform:none;transform:none}}.bounceInRight{-webkit-animation-name:bounceInRight;animation-name:bounceInRight}@-webkit-keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes bounceInUp{0%,60%,75%,90%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(0,3000px,0);transform:translate3d(0,3000px,0)}60%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}75%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}90%{-webkit-transform:translate3d(0,-5px,0);transform:translate3d(0,-5px,0)}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.bounceInUp{-webkit-animation-name:bounceInUp;animation-name:bounceInUp}@-webkit-keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}@keyframes bounceOut{20%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}50%,55%{opacity:1;-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}to{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}}.bounceOut{-webkit-animation-name:bounceOut;animation-name:bounceOut}@-webkit-keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes bounceOutDown{20%{-webkit-transform:translate3d(0,10px,0);transform:translate3d(0,10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,-20px,0);transform:translate3d(0,-20px,0)}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.bounceOutDown{-webkit-animation-name:bounceOutDown;animation-name:bounceOutDown}@-webkit-keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes bounceOutLeft{20%{opacity:1;-webkit-transform:translate3d(20px,0,0);transform:translate3d(20px,0,0)}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.bounceOutLeft{-webkit-animation-name:bounceOutLeft;animation-name:bounceOutLeft}@-webkit-keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes bounceOutRight{20%{opacity:1;-webkit-transform:translate3d(-20px,0,0);transform:translate3d(-20px,0,0)}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.bounceOutRight{-webkit-animation-name:bounceOutRight;animation-name:bounceOutRight}@-webkit-keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes bounceOutUp{20%{-webkit-transform:translate3d(0,-10px,0);transform:translate3d(0,-10px,0)}40%,45%{opacity:1;-webkit-transform:translate3d(0,20px,0);transform:translate3d(0,20px,0)}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.bounceOutUp{-webkit-animation-name:bounceOutUp;animation-name:bounceOutUp}@-webkit-keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDown{0%{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInDownBig{0%{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInDownBig{-webkit-animation-name:fadeInDownBig;animation-name:fadeInDownBig}@-webkit-keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeft{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}@-webkit-keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInLeftBig{0%{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInLeftBig{-webkit-animation-name:fadeInLeftBig;animation-name:fadeInLeftBig}@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRight{0%{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}@-webkit-keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInRightBig{0%{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInRightBig{-webkit-animation-name:fadeInRightBig;animation-name:fadeInRightBig}@-webkit-keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{0%{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUpBig{0%{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}to{opacity:1;-webkit-transform:none;transform:none}}.fadeInUpBig{-webkit-animation-name:fadeInUpBig;animation-name:fadeInUpBig}@-webkit-keyframes fadeOut{0%{opacity:1}to{opacity:0}}@keyframes fadeOut{0%{opacity:1}to{opacity:0}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes fadeOutDown{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.fadeOutDown{-webkit-animation-name:fadeOutDown;animation-name:fadeOutDown}@-webkit-keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}@keyframes fadeOutDownBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,2000px,0);transform:translate3d(0,2000px,0)}}.fadeOutDownBig{-webkit-animation-name:fadeOutDownBig;animation-name:fadeOutDownBig}@-webkit-keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes fadeOutLeft{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.fadeOutLeft{-webkit-animation-name:fadeOutLeft;animation-name:fadeOutLeft}@-webkit-keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}@keyframes fadeOutLeftBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(-2000px,0,0);transform:translate3d(-2000px,0,0)}}.fadeOutLeftBig{-webkit-animation-name:fadeOutLeftBig;animation-name:fadeOutLeftBig}@-webkit-keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes fadeOutRight{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.fadeOutRight{-webkit-animation-name:fadeOutRight;animation-name:fadeOutRight}@-webkit-keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}@keyframes fadeOutRightBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(2000px,0,0);transform:translate3d(2000px,0,0)}}.fadeOutRightBig{-webkit-animation-name:fadeOutRightBig;animation-name:fadeOutRightBig}@-webkit-keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes fadeOutUp{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.fadeOutUp{-webkit-animation-name:fadeOutUp;animation-name:fadeOutUp}@-webkit-keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}@keyframes fadeOutUpBig{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(0,-2000px,0);transform:translate3d(0,-2000px,0)}}.fadeOutUpBig{-webkit-animation-name:fadeOutUpBig;animation-name:fadeOutUpBig}@-webkit-keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}@keyframes flip{0%{-webkit-transform:perspective(400px) rotateY(-1turn);transform:perspective(400px) rotateY(-1turn);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-190deg);transform:perspective(400px) translateZ(150px) rotateY(-190deg);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(-170deg);transform:perspective(400px) translateZ(150px) rotateY(-170deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}80%{-webkit-transform:perspective(400px) scale3d(.95,.95,.95);transform:perspective(400px) scale3d(.95,.95,.95);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}to{-webkit-transform:perspective(400px);transform:perspective(400px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}}.animated.flip{-webkit-backface-visibility:visible;backface-visibility:visible;-webkit-animation-name:flip;animation-name:flip}@-webkit-keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInX{0%{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{-webkit-transform:perspective(400px) rotateX(10deg);transform:perspective(400px) rotateX(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateX(-5deg);transform:perspective(400px) rotateX(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInX{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInX;animation-name:flipInX}@-webkit-keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}@keyframes flipInY{0%{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}40%{-webkit-transform:perspective(400px) rotateY(-20deg);transform:perspective(400px) rotateY(-20deg);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}60%{-webkit-transform:perspective(400px) rotateY(10deg);transform:perspective(400px) rotateY(10deg);opacity:1}80%{-webkit-transform:perspective(400px) rotateY(-5deg);transform:perspective(400px) rotateY(-5deg)}to{-webkit-transform:perspective(400px);transform:perspective(400px)}}.flipInY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipInY;animation-name:flipInY}@-webkit-keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}@keyframes flipOutX{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateX(-20deg);transform:perspective(400px) rotateX(-20deg);opacity:1}to{-webkit-transform:perspective(400px) rotateX(90deg);transform:perspective(400px) rotateX(90deg);opacity:0}}.flipOutX{-webkit-animation-name:flipOutX;animation-name:flipOutX;-webkit-backface-visibility:visible!important;backface-visibility:visible!important}@-webkit-keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}@keyframes flipOutY{0%{-webkit-transform:perspective(400px);transform:perspective(400px)}30%{-webkit-transform:perspective(400px) rotateY(-15deg);transform:perspective(400px) rotateY(-15deg);opacity:1}to{-webkit-transform:perspective(400px) rotateY(90deg);transform:perspective(400px) rotateY(90deg);opacity:0}}.flipOutY{-webkit-backface-visibility:visible!important;backface-visibility:visible!important;-webkit-animation-name:flipOutY;animation-name:flipOutY}@-webkit-keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{0%{-webkit-transform:translate3d(100%,0,0) skewX(-30deg);transform:translate3d(100%,0,0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}@-webkit-keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}@keyframes lightSpeedOut{0%{opacity:1}to{-webkit-transform:translate3d(100%,0,0) skewX(30deg);transform:translate3d(100%,0,0) skewX(30deg);opacity:0}}.lightSpeedOut{-webkit-animation-name:lightSpeedOut;animation-name:lightSpeedOut;-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}@-webkit-keyframes rotateIn{0%{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateIn{0%{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate(-200deg);transform:rotate(-200deg);opacity:0}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:none;transform:none;opacity:1}}.rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}@-webkit-keyframes rotateInDownLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownLeft{-webkit-animation-name:rotateInDownLeft;animation-name:rotateInDownLeft}@-webkit-keyframes rotateInDownRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInDownRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInDownRight{-webkit-animation-name:rotateInDownRight;animation-name:rotateInDownRight}@-webkit-keyframes rotateInUpLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpLeft{-webkit-animation-name:rotateInUpLeft;animation-name:rotateInUpLeft}@-webkit-keyframes rotateInUpRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}@keyframes rotateInUpRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);opacity:0}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:none;transform:none;opacity:1}}.rotateInUpRight{-webkit-animation-name:rotateInUpRight;animation-name:rotateInUpRight}@-webkit-keyframes rotateOut{0%{-webkit-transform-origin:center;transform-origin:center;opacity:1}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}@keyframes rotateOut{0%{-webkit-transform-origin:center;transform-origin:center;opacity:1}to{-webkit-transform-origin:center;transform-origin:center;-webkit-transform:rotate(200deg);transform:rotate(200deg);opacity:0}}.rotateOut{-webkit-animation-name:rotateOut;animation-name:rotateOut}@-webkit-keyframes rotateOutDownLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;opacity:1}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}@keyframes rotateOutDownLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;opacity:1}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(45deg);transform:rotate(45deg);opacity:0}}.rotateOutDownLeft{-webkit-animation-name:rotateOutDownLeft;animation-name:rotateOutDownLeft}@-webkit-keyframes rotateOutDownRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;opacity:1}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutDownRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;opacity:1}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutDownRight{-webkit-animation-name:rotateOutDownRight;animation-name:rotateOutDownRight}@-webkit-keyframes rotateOutUpLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;opacity:1}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}@keyframes rotateOutUpLeft{0%{-webkit-transform-origin:left bottom;transform-origin:left bottom;opacity:1}to{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);opacity:0}}.rotateOutUpLeft{-webkit-animation-name:rotateOutUpLeft;animation-name:rotateOutUpLeft}@-webkit-keyframes rotateOutUpRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;opacity:1}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}@keyframes rotateOutUpRight{0%{-webkit-transform-origin:right bottom;transform-origin:right bottom;opacity:1}to{-webkit-transform-origin:right bottom;transform-origin:right bottom;-webkit-transform:rotate(90deg);transform:rotate(90deg);opacity:0}}.rotateOutUpRight{-webkit-animation-name:rotateOutUpRight;animation-name:rotateOutUpRight}@-webkit-keyframes hinge{0%{-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}@keyframes hinge{0%{-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}20%,60%{-webkit-transform:rotate(80deg);transform:rotate(80deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}40%,80%{-webkit-transform:rotate(60deg);transform:rotate(60deg);-webkit-transform-origin:top left;transform-origin:top left;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out;opacity:1}to{-webkit-transform:translate3d(0,700px,0);transform:translate3d(0,700px,0);opacity:0}}.hinge{-webkit-animation-name:hinge;animation-name:hinge}@-webkit-keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes rollIn{0%{opacity:0;-webkit-transform:translate3d(-100%,0,0) rotate(-120deg);transform:translate3d(-100%,0,0) rotate(-120deg)}to{opacity:1;-webkit-transform:none;transform:none}}.rollIn{-webkit-animation-name:rollIn;animation-name:rollIn}@-webkit-keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}@keyframes rollOut{0%{opacity:1}to{opacity:0;-webkit-transform:translate3d(100%,0,0) rotate(120deg);transform:translate3d(100%,0,0) rotate(120deg)}}.rollOut{-webkit-animation-name:rollOut;animation-name:rollOut}@-webkit-keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}@keyframes zoomIn{0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}50%{opacity:1}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInDown{-webkit-animation-name:zoomInDown;animation-name:zoomInDown}@-webkit-keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInLeft{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(-1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(10px,0,0);transform:scale3d(.475,.475,.475) translate3d(10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInLeft{-webkit-animation-name:zoomInLeft;animation-name:zoomInLeft}@-webkit-keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInRight{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);transform:scale3d(.1,.1,.1) translate3d(1000px,0,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);transform:scale3d(.475,.475,.475) translate3d(-10px,0,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInRight{-webkit-animation-name:zoomInRight;animation-name:zoomInRight}@-webkit-keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInUp{0%{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);transform:scale3d(.1,.1,.1) translate3d(0,1000px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomInUp{-webkit-animation-name:zoomInUp;animation-name:zoomInUp}@-webkit-keyframes zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}to{opacity:0}}@keyframes zoomOut{0%{opacity:1}50%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}to{opacity:0}}.zoomOut{-webkit-animation-name:zoomOut;animation-name:zoomOut}@-webkit-keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutDown{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutDown{-webkit-animation-name:zoomOutDown;animation-name:zoomOutDown}@-webkit-keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}@keyframes zoomOutLeft{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(42px,0,0);transform:scale3d(.475,.475,.475) translate3d(42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(-2000px,0,0);transform:scale(.1) translate3d(-2000px,0,0);-webkit-transform-origin:left center;transform-origin:left center}}.zoomOutLeft{-webkit-animation-name:zoomOutLeft;animation-name:zoomOutLeft}@-webkit-keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}@keyframes zoomOutRight{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(-42px,0,0);transform:scale3d(.475,.475,.475) translate3d(-42px,0,0)}to{opacity:0;-webkit-transform:scale(.1) translate3d(2000px,0,0);transform:scale(.1) translate3d(2000px,0,0);-webkit-transform-origin:right center;transform-origin:right center}}.zoomOutRight{-webkit-animation-name:zoomOutRight;animation-name:zoomOutRight}@-webkit-keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomOutUp{40%{opacity:1;-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);transform:scale3d(.475,.475,.475) translate3d(0,60px,0);-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);animation-timing-function:cubic-bezier(.55,.055,.675,.19)}to{opacity:0;-webkit-transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);transform:scale3d(.1,.1,.1) translate3d(0,-2000px,0);-webkit-transform-origin:center bottom;transform-origin:center bottom;-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.zoomOutUp{-webkit-animation-name:zoomOutUp;animation-name:zoomOutUp}@-webkit-keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInDown{0%{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}@-webkit-keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInLeft{0%{-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}@-webkit-keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInRight{0%{-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight}@-webkit-keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}@keyframes slideInUp{0%{-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0);visibility:visible}to{-webkit-transform:translateZ(0);transform:translateZ(0)}}.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp}@-webkit-keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}@keyframes slideOutDown{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.slideOutDown{-webkit-animation-name:slideOutDown;animation-name:slideOutDown}@-webkit-keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}@keyframes slideOutLeft{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(-100%,0,0);transform:translate3d(-100%,0,0)}}.slideOutLeft{-webkit-animation-name:slideOutLeft;animation-name:slideOutLeft}@-webkit-keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}@keyframes slideOutRight{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(100%,0,0);transform:translate3d(100%,0,0)}}.slideOutRight{-webkit-animation-name:slideOutRight;animation-name:slideOutRight}@-webkit-keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}@keyframes slideOutUp{0%{-webkit-transform:translateZ(0);transform:translateZ(0)}to{visibility:hidden;-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0)}}.slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}.mainBlockComponent{opacity:0;transform:translate3d(3000px,0,0)}
+</style> 
+ </head> 
+ <body data-gr-c-s-loaded="true"> 
+ <div data-reactroot class="Shinshilla"> 
+ <div class="project-page container Shinshilla"> 
+ <div class="nav">
+
+                <div class="headroom-wrapper" style="height: 51px;">
+                    <div class="headroom headroom--unfixed" style="position: relative; top: 0px; left: 0px; right: 0px; z-index: 1; transform: translate3d(0px, 0px, 0px);">
+                        <div>
+                            <navbar class="navbar">
+                                <a class="navbar-link" href="./index.html">Home</a>
+                                <div class="next navbar-link">
+                                    <a href="./hicraft.html">HiCraft</a>
+                                    <span class="isvg loaded next-arrow">
+                                        <svg id="Layer_1___-1412094391" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.25 5.69">
+                                            <title>arrow-slim</title>
+                                            <polygon points="6.81 2.86 4.85 4.97 4.33 4.49 5.6 3.12 0.38 3.12 0.38 2.37 5.6 2.37 4.42 1.09 4.94 0.61 6.81 2.62 6.81 2.86"></polygon>
+                                            </svg>
+                                            </span>
+                                            </div>
+                                            </navbar>
+                                            </div>
+                                            </div>
+                                            </div>
+ </div> 
+ <div class="header row"> 
+ <h1 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Shinshilla</h1> 
+ </div>
+
+ <div class="row subtitle"> 
+     <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Empower the traditional real estate developer with digital community collaboration and informed urban planning platform in Ukraine</p> 
+ </div>
+
+ <div class="row"> 
+     <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12 col-xl-12"> 
+        <img src="./assets/static/media/Shinshilla_Cover.svg" class="momentor-image" alt="Shinshilla's cover"> 
+     </div> 
+ </div> 
+
+ <div class="content" id="reading-content"> 
+ <span> 
+     <div class="project-section Problem"> 
+        <div class="row"> 
+          <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Problem</h3> 
+        </div> 
+        <div class="project-section-content"> 
+       <span> 
+       <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6"> 
+         Corporations and public entities in Ukraine desire an easy and democratic way to gather community input, and Ukrainian citizens desire <b>a platform for their feedback to be incorporated into the urban planning process rapidly unfolding in their communities</b>. Developers and urban planners need access to data to inform their decisions.</p>
+       </div>
+
+        <div class=" row"> 
+           <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                <img class="feature-image" src="./assets/static/media/shinshilla_pre_problem.png" alt="The challenge">
+           </div>
+         </div>
+
+        <div class=" row"> 
+         <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">What is the challenge that the project is faced with?</p> 
+        </div>
+
+        </span> 
+     </div> 
+     </div>
+
+     <div class="project-section Solution"> 
+
+         <div class="row"> 
+             <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Solution</h3> 
+         </div>
+
+         <div class="project-section-content"> 
+           <span>
+
+               <div class="row"> 
+               <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Corporations and public entities in Ukraine desire an easy and democratic way to gather community input, and Ukrainian citizens desire <b>a platform for their feedback to be incorporated into the urban planning process rapidly unfolding in their communities</b>. Developers and urban planners need access to data to inform their decisions.</p> 
+               </div> 
+
+                <div class="one-margin-top row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-2 col-lg-8 col-xl-offset-2 col-xl-8">
+                        <img class="feature-image solution" src="./assets/static/media/shinshilla_screen.png" alt="Shinshilla key screens">
+                    </div>
+                </div>
+
+                <div class="row"> 
+                  <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6"> 
+                    <span>
+                        <p class="caption">A quick overview of designed key screens of Shinshilla showing how to submit a project</p> 
+                    </span> 
+                  </div> 
+                </div> 
+           
+           </span> 
+        </div>
+    </div>
+
+    <div class="project-section Process"> 
+        <div class="row"> 
+          <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Why Ukraine</h3> 
+        </div> 
+        <div class="project-section-content"> 
+       <span> 
+       <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6"> 
+            Anastasiya Ponomaryova is a Ukrainian urbanist from a Kyiv-based non-profit urban design agency <a href="https://urbancurators.com.ua/" target="_blank">Urban Curator</a>. During summer 2018, she organized <a href="https://postindustrialkyiv.cargo.site/" target="_blank">an independent study</a> of Ukraine postindustrial district redevelopment collaborating Ukrainian developer SAGA.
+            </br></br>
+
+            Both of our team members were interested in <b>diagnosing the existing urban design problem and in researching/testing a participatory design methodology</b> in this post-soviet country. After visiting our site Podil (a district more than 13 mi²), Kyiv on August 2018, we came back to MIT continuing the analysis of the original site observation and investigation (including building quality study, urban collective memory study) and proposed the idea of developing the urban design data collecting platform Shinshilla. Meanwhile, with the help of Urban Curator, we continued organizing surveys/interviews/user test in order to help us identify the real need for such a platform.</p>
+       </div>
+
+        <div class=" row"> 
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-offset-2 col-lg-8 col-xl-offset-2 col-xl-8">
+                <img class="feature-image solution" src="./assets/static/media/shinshilla_timeline-01.png" alt="The challenge">
+           </div>
+         </div>
+
+        <div class=" row"> 
+         <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The timeline of the project</p> 
+        </div>
+
+        </span> 
+     </div> 
+     </div>
+
+<div class="project-section Process"> 
+     
+     <div class="row"> 
+       <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Process</h3> 
+     </div> 
+ 
+    <div class="project-section-content"> 
+        <span> 
+             <div class=" row"> 
+                <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The process of this project was divided into five steps, namely <b> the qualitative research, the quantitative research, the co-design, the prototyping and the presenting</b>. At the end of the project, the team of two delivered a conceptual data collection platform to the stakeholder, organized a participatory design exhibition with the local community, and presented the product design proposal during IDEAS social innovation challenge.</p> 
+             </div>
+
+         <div class=" row"> 
+             <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10 col-xl-offset-2 col-xl-8"> 
+             <span class="Process">     
+             <ul class="timeline">
+
+                 <span class="step"> 
+                     <div class="time"> 
+                        <img src="./assets/static/media/quali.svg" alt="0 step"> 
+                     </div> 
+                     <li class="step-details"> 
+                        <h5 class="step-header">Qualitative Research</h5> 
+                        <ul class="step-info"> 
+                             <li>Observation</li>
+                             <li>Literature Review</li>  
+                             <li>Interview</li> 
+                             <li>Competitive Analysis</li> 
+                        </ul> 
+                     </li> 
+                 </span>
+
+                 <span class="step"> 
+                     <div class="time"> 
+                        <img src="./assets/static/media/quant.svg" alt="1 step"> 
+                     </div> 
+                     <li class="step-details"> 
+                         <h5 class="step-header">Quantitative Research</h5> 
+                         <ul class="step-info"> 
+                             <li>Social Media Study</li> 
+                             <li>Survey</li>
+                         </ul> 
+                     </li> 
+                 </span>
+
+                 <span class="step"> 
+                     <div class="time"> 
+                         <img src="./assets/static/media/codesign.svg" alt="2 step"> 
+                     </div> 
+                     <li class="step-details"> 
+                         <h5 class="step-header">Co-design</h5> 
+                         <ul class="step-info"> 
+                             <li>Workshop</li> 
+                             <li>Wireframe</li> 
+                         </ul> 
+                     </li> 
+                 </span>
+
+                 <span class="step"> 
+                     <div class="time"> 
+                         <img src="./assets/static/media/proto.svg" alt="3 step"> 
+                     </div> 
+                     <li class="step-details"> 
+                         <h5 class="step-header">Prototype</h5> 
+                         <ul class="step-info"> 
+                             <li>Low-fidelity</li>
+                             <li>High-fidelity</li>
+                         </ul> 
+                     </li> 
+                 </span>
+
+                 <span class="step"> 
+                     <div class="time"> 
+                         <img src="./assets/static/media/presentation.svg" alt="4 step"> 
+                     </div>
+
+                     <li class="step-details"> 
+                         <h5 class="step-header">Present</h5> 
+                         <ul class="step-info"> 
+                             <li>Showcase</li> 
+                             <li>Exhibition</li> 
+                             <li>Interface</li> 
+                         </ul> 
+                     </li>
+                 </span> 
+             </ul> 
+             </span> 
+             </div> 
+         </div> 
+ 
+        </span> 
+    </div>
+
+ </div>
+
+ <div class="project-section Logistics">
+
+     <div class="row"> 
+         <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Logistics</h3> 
+     </div> 
+
+     <div class="project-section-content"> 
+       <div class="row stats"> 
+        
+        <div class="col-xs-4 col-sm-4 col-md-offset-1 col-md-3 col-lg-offset-2dot5 col-lg-2dot3 col-xl-offset-3 col-xl-2"> 
+             <h5>Team</h5> 
+             <ul> 
+                 <li>1 designer</li> 
+                 <li>1 community collaborator</li>
+                 <li>1 co-designer</li>
+                 <li>1 front-end engineer</li> 
+             </ul> 
+        </div>
+
+         <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2dot3 col-xl-2"> 
+             <h5>Time Frame</h5> 
+             <ul> 
+                 <li>Aug ’18 – May ’19</li> 
+             </ul> 
+         </div> 
+         
+         <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2dot3 col-xl-2"> 
+             <h5>My Role</h5> 
+             <ul> 
+                 <li>User Research</li>
+                 <li>Data Analysis</li>
+                 <li>Data Visualization</li> 
+                 <li>Product Design</li> 
+                 <li>Presenting</li>
+                 <li>Curation</li> 
+             </ul> 
+         </div>
+
+        </div> 
+     </div> 
+ </div>
+
+
+ <div class="project-section Research"> 
+     <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Qualitative Research</h3> 
+     </div> 
+     <div class="project-section-content"> 
+    <span> 
+
+         <div class=" row">
+             <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Observation</h4>
+         </div>
+
+         <div class=" row"> 
+           <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Ukraine is a new democracy and the landscape is rapidly changing with large investments in capital assets and a growing presence as a regional hub for tech and innovation. The Ukrainian government, private sector players and citizens are working together to strengthen their democracy and decide the future for their planning and community development initiatives.</br></p>
+
+         </div>
+
+
+         <div class="one-margin-top row">
+                   <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                        <img class="feature-image" src="./assets/static/media/shin_site.png" alt="Site Visit">
+                    </div>
+                </div>
+
+                <div class="one-margin-bottom row">
+                    <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The site visit of a real estate development project in Kyiv</p>
+         </div>
+
+         <div class=" row"> 
+           <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">In this time of exciting innovation, <b>stakeholders expressed that there is a lack of reliable data available to government civic partners on the ground. Different stakeholders reported that they experience a lack of trust and collaboration in the public and private sector in order to share analytical insights and data sets that would inform their decision-making and ultimately ensure the design of a human-oriented built environment. Ukrainian citizens report that public spaces of historic and contemporary importance are being repurposed or disassembled without community input</b>. It is projected that in the next ten years there will be massive investments in infrastructure, housing and public utilities in the region that will transform the urban landscape.
+
+           </br></br>In order to understand what the citizens and the developers really need, I first conducted a series of qualitative research during on-site visit beyond observation.</p>
+
+         </div> 
+         <div class="row callouts">
+
+            <div class="react-reveal Survey callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-lg-offset-1dot5 col-xl-offset-1dot5 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;">
+
+                <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/literature.svg" alt="Literature">
+                </div> 
+                <h5>Literature Review</h5>
+                    <p>Look into dynamic literature review to understand the country</p> 
+            </div>
+
+            <div class="react-reveal Participatory Design callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 150ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;">
+                    
+                 <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/interview.svg" alt="Interview"> 
+                 </div>               
+                 <h5>Interview</h5> 
+                    <p>Conducted experience interview with more than 10 local residents</p> 
+            </div>
+
+            <div class="react-reveal Competitive Analysis callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;">
+
+                <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/comp.svg" alt="Web app, mobile app">
+                </div> 
+                <h5>Competitive Analysis</h5> 
+                <p>Looked at the existing technical solutions that try to address the problem</p> 
+            </div> 
+        </div>
+
+        <div class="ReactCollapse--collapse" style="height: auto;">
+            <div class="ReactCollapse--content">
+                <div class=" row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Literature Review</h4>
+                </div>
+
+                <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">I first looked into the literature review including academic papers to understand the historical factors that lead to this situation. I also looked into the journals and other informal publications to diagnose the problem. Additionally, I looked into the online dataset and understood that <b>the long anarchic state leads to the trustlessness between the developers and the citizens</b>.</p>
+                </div>
+
+                <div class="one-margin-top row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <img class="feature-image" src="./assets/static/media/shin-literature.svg" alt="Literature Review Sectors">
+                    </div>
+                </div>
+
+                <div class="one-margin-bottom row">
+                    <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The literature review sectors</p>
+                </div>
+
+                <div class=" row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Interview</h4>
+                </div>
+
+                <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Parallel to the literature review, I also conducted an interview with more than 10 local residents in order to understand their needs. Instead of requesting the quant data, I invited the residents to share their past experience and concerns during the urban planning process. At the end of the interview, I collected the information and included some key quotes:</p>
+                </div>
+
+                <div class=" row">
+                    <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">“Our spontaneous creative activities are often neglected during the urban development process.”</p>
+                </div>
+
+                <div class=" row">
+                    <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">“Lots of informal places are pulling down, which used to be the places for our daily gathering.”</p>
+                </div>
+
+                <div class=" row">
+                    <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">“I feel that our precious informal memories are not fully respected and appreciated during the existing urban planning process.”</p>
+                </div>
+
+                <div class=" row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Competitive Analysis</h4>
+                </div>
+
+                <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Our preliminary research shows that our peers are doing what they can to gather/scrape data from social media channels and create community profiles for marketing purposes (e.g. Twitter):</p>
+                </div>
+
+                <div class=" row">
+                    <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">"However, all of these methods are not transparent, or are done without citizen consent."</p>
+                </div>
+
+
+                <div class="one-margin-top row">
+                    <div div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                        <img class="feature-image" src="./assets/static/media/shin_comp.svg" alt="Competitive Analysis">
+                    </div>
+                </div>
+
+                <div class="one-margin-bottom row">
+                    <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The competitive analysis of other existing products</p>
+                </div>
+
+                <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">In this way, we understood the necessity of proposing the data collection techniques/products/tools that are transparent and can deliver data in a way that will be used for urban planning initiatives by both private and public sector players.
+                    </br>
+                    </br>Further, this preliminary research shows that if successful, our social impact could later expand to serve other countries in the region. </p>
+                </div>
+
+            </div>
+        </div>
+
+    </span> 
+  </div> 
+ </div> 
+ 
+ <div class="project-section Synthesize"> 
+    <div class="row">
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Quantitative Research</h3> 
+    </div> 
+    
+    <div class="project-section-content">
+    <span> 
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6"> 
+            Once I gathered all the qualitative research results, it is important to quantify the impact and use data to generate important insights. I then conducted a series of research to scope the problem more precisely from the following three methodologies:</b> 
+            </p> 
+        </div>
+
+        <div class="row callouts">
+
+             <div class="react-reveal Visual callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-lg-offset-1dot5 col-xl-offset-1dot5 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;"> 
+                <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/social_media.svg" alt="Social Media"> 
+                </div> 
+                <h5>Social Media Study</h5> 
+                <p>Scrap and study the online social media data</p> 
+             </div>
+
+             <div class="react-reveal Haptic callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 300ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;"> 
+                <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/survey.svg" alt="Survey"> 
+                </div> 
+                <h5>Survey</h5> 
+                <p>Use the questionnaire to collect users' feedback</p> 
+            </div>
+
+            <div class="react-reveal Audio callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-lg-offset-0 col-xl-offset-0" style="animation-name: react-reveal-340107163965624-1; animation-duration: 1000ms; animation-delay: 150ms; animation-iteration-count: 1; animation-fill-mode: both; opacity: 1;"> 
+                <div class="callout-image-container undefined"> 
+                    <img src="./assets/static/media/datav.svg" alt="Data Viz"> 
+                </div> 
+                <h5>Data Analysis and Viz</h5> 
+                <p>Visualize the data and make it open to the public</p> 
+            </div>
+        </div>
+
+        <div class="ReactCollapse--collapse" style="height: auto;">
+            <div class="ReactCollapse--content">
+                <div class=" row">
+                    <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Social Media Study</h4>
+                </div>
+                    <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">
+                        After understanding the existing problem through observation and interview, as well as the limitation of existing product through comparative study, I want to understand <b>who are the actual users of the space that SAGA Development is going to create for</b>. Due to the absence of government agencies, Ukraine is lack of actual data, which can tell the country’s socio-demographic characteristics. The need of the data allows the study to seek an alternative for this data gap. 
+                    </p>
+                    </div>
+
+                        <div class="one-margin-top row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <img class="feature-image" src="./assets/static/media/shin_flow.png" alt="Data pipeline">
+                            </div>
+                        </div>
+
+                        <div class=" row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The data pipeline of online social media study</p>
+                        </div>
+
+                    <div class=" row">
+                    <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">
+                       In this way, <b>the information decoded from different informal social media platforms can tell how people actually use their urban space</b> (user, location, time, duration, activity type, frequency, etc.), which provide a lens to mine the value (either to preserve the postindustrial heritage as social activity containers, or to reprogram it according to user’s actual need) of the Podil post-industrial area.
+                       </br></br>
+                       Therefore, I first <b>created a visualization to summarize Podil people’s collective profile from Facebook (this process got user consent)</b>, to map people’s activity with the geolocations, to find the places in Podil that have the greatest potential to create social venue. 
+                    </p>
+                    </div>
+
+                        <div class="one-margin-top row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <img class="feature-image" src="./assets/static/media/shin_datav.png" alt="Social Media Study">
+                            </div>
+                        </div>
+
+                        <div class=" row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">A look at the user profile from social media</p>
+                        </div>
+
+                        <div class=" row"> 
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                            <div class="button outline purple"> 
+                                <a href="https://drive.google.com/file/d/1buXhHdgXk65-jtiHi3-l94s12qiK24AO/view?usp=sharing", target="_blank"> 
+                                <span>Read the full report</span> 
+                                </a> 
+                            </div> 
+                           </div> 
+                        </div> 
+
+                        <div class=" row">
+                            <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Survey</h4>
+                        </div>           
+
+                        <div class=" row">
+                            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">In order to further understand what citizens really need from an urban data collection platform, we have launched several rounds of surveys with the help of Urban Curator in Kyiv.</p>
+                        </div>
+
+            <div class="row callouts"> 
+                <div class="react-reveal Participants callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-lg-offset-1dot5 col-xl-offset-1dot5 col-md-offset-0 col-lg-offset-0 col-xl-offset-0"> 
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/hundred.svg" alt="hundred"> 
+                    </div> 
+                    <h5>Participants</h5> 
+                    <p>Cover 100 residents from different backgrounds</p> 
+                </div> 
+                <div class="react-reveal Lattice Square callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-lg-offset-0 col-xl-offset-0">
+
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/three_new.svg" alt="three"> 
+                    </div> 
+                    
+                    <h5>Themes</h5>
+                    <p>3 themes to diagnose the problem and imagine the vision</p>
+
+                </div>
+
+                <div class="react-reveal Metrics Measured callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-md-offset-0 col-lg-offset-0 col-xl-offset-0"> 
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/fifty.svg" alt="fifty"> 
+                    </div> 
+                    <h5>Questions</h5> 
+                    <p>More than 50 questions to get a deeper understanding of the user needs</p> 
+                </div> 
+            </div>
+
+                        <div class=" row">
+                            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The survey consists of not only quantitative questions about also qualitative questions, especially the questions as:</p>
+                        </div>
+
+                        <div class=" row">
+                            <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">“What place in Kyiv has your most beautiful memory?”</p>
+                        </div>
+
+                        <div class=" row">
+                            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">To get a better understanding of people’s personal experience.</p>
+                        </div>
+
+                        <div class="row one-margin-top">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <img class="feature-image" src="./assets/static/media/shin_quiz_01.png" alt="Survey questions">
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"><img class="feature-image" src="./assets/static/media/shin_quiz_02.png" alt="Design the gifts for survey takers">
+                            </div>
+                        </div>
+
+                        <div class="one-margin-bottom row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Design the survey and the gifts for survey takers</p>
+                        </div>
+
+                        <div class=" row">
+                            <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Data Analysis and Visualization</h4>
+                        </div>
+
+                        <div class=" row">
+                            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">I have collected the quantitative data and qualitative data from 100 participants, visualized them and published a series of data visualization on the public social media platform. For example, I calculated the frequency of the keywords that were mentioned among all the answers, abstracted the common issues that people were concerned about, and finally applied word cloud visualization to visualize them. All the information can be accessed by the general public.</p>
+                        </div>
+
+                        <div class="one-margin-top row">
+                            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                                <img class="feature-image" src="./assets/static/media/shin_viz_01.png" alt="Social Media Study">
+                            </div>
+                        </div>
+
+                        <div class=" row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Podil Facts: who took the survey</p>
+                        </div>
+
+                        <div class=" row"> 
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                            <div class="button outline purple"> 
+                                <a href="https://observablehq.com/@wuyueqz/podil-facts", target="_blank"> 
+                                <span>Read the full report</span> 
+                                </a> 
+                            </div> 
+                           </div> 
+                        </div>
+
+                        <div class="one-margin-top row">
+                            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                                <img class="feature-image" src="./assets/static/media/shin_viz_02.png" alt="Social Media Study">
+                            </div>
+                        </div>
+
+                        <div class=" row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Podil Facts: Podil matters</p>
+                        </div>
+
+                        <div class=" row"> 
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                            <div class="button outline purple"> 
+                                <a href="https://observablehq.com/@wuyueqz/podil-facts/2", target="_blank"> 
+                                <span>Read the full report</span> 
+                                </a> 
+                            </div> 
+                           </div> 
+                        </div>
+
+                        <div class="one-margin-top row">
+                            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                                <img class="feature-image" src="./assets/static/media/shin_viz_03.png" alt="Social Media Study">
+                            </div>
+                        </div>
+
+                        <div class=" row">
+                            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Podil Facts: I love Podil</p>
+                        </div>
+
+                        <div class=" row"> 
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                            <div class="button outline purple"> 
+                                <a href="https://observablehq.com/@wuyueqz/podil-facts/3", target="_blank"> 
+                                <span>Read the full report</span> 
+                                </a> 
+                            </div> 
+                           </div> 
+                        </div>   
+
+                    </div>
+        </div>
+
+    </span> 
+  </div> 
+ </div> 
+ 
+
+<div class="project-section Design"> 
+    <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Co-design</h3> 
+    </div>
+
+    <div class="project-section-content">
+
+        <span>
+            <div class=" row"> 
+                 <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Workshop</h4> 
+            </div>
+
+            <div class=" row"> 
+                <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Taking the insights of the previous social media study, we organized two rounds of co-design exercise with different stakeholders including real estate developers and other local designers. We were targeting on figuring out:</p> 
+            </div>
+
+        <div class=" row"> 
+            <ul class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 list"> 
+             <li>What the traditional real estate development process is in Ukraine?</li> 
+             <li>What SAGA need during the urban planning process?</li> 
+             <li>What process can be streamlined and more transparent?</li>
+             <li>What data can be accessible to the general public?</li>
+            </ul> 
+        </div>
+
+            <div class="one-margin-top row">
+                <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                    <img class="feature-image" src="./assets/static/media/shin_saga.png" alt="Shinshilla Interview">
+                </div>
+            </div>
+
+            <div class="one-margin-bottom row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">During the interview, the co-design from SAGA is introducing the urban planning process in Ukraine for the audience</p>
+            </div>
+
+            <div class=" row"> 
+                <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Among the mapping of the whole process, we realized that our main opportunity lies in <b>the planning and design stage</b>. During this stage, the developer would like to collect more data about the citizen’s urban living behavior and design preference. The information on new project release, design decision making, and construction bidding can be more transparent, i.e. the data can be accessible to the public.</p> 
+            </div>
+
+            <div class="one-margin-top row"> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">            
+                    <img class="feature-image" src="./assets/static/media/shin_flow_saga.png" alt="Mapping the urban planning process in Ukraine">
+                </div>
+            </div>
+
+            <div class=" row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Mapping the urban planning process in Ukraine</p>
+            </div>
+
+            <div class=" row"> 
+                 <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Wireframe</h4> 
+            </div>
+
+            <div class=" row"> 
+                <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">In this way, in the collaboration with the real estate developer and the community leaders, we designed a binary diagram mapping all the potential functions that both developers and citizens would like to have in this application. These functions are generated from both the workshop and previous surveys/interviews.
+            </div>
+
+            <div class="one-margin-top row">
+                <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">
+                    <img class="feature-image" src="./assets/static/media/shin_binary.png" alt="Shinshilla Binary Diagram">
+                </div>
+            </div>
+
+            <div class="one-margin-bottom row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">This diagram maps the needs of both parties during the participatory urban design</p>
+            </div>
+         </span> 
+    </div> 
+</div> 
+ 
+<div class="project-section Prototype"> 
+    <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Prototype</h3> 
+    </div>
+     
+    <div class="project-section-content"> 
+        <span>
+
+        <div class=" row"> 
+             <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Low-fidelity Design</h4> 
+        </div>
+
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Considering the difficulty designing an application for two parties, including the data management, etc, we first decided to start with a pilot focusing on the process during which developer <b>submit project request -> launch the survey -> get the data</b>. We then sketched the wireframe.</p> 
+        </div>
+
+
+            <div class="row callouts"> 
+                <div class="react-reveal Participants callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-lg-offset-1dot5 col-xl-offset-1dot5 col-md-offset-0 col-lg-offset-0 col-xl-offset-0"> 
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/shin_project.svg" alt="Submit a project"> 
+                    </div> 
+                    <h5>Request</h5> 
+                    <p>The developer can request a project</p> 
+                </div> 
+                <div class="react-reveal Lattice Square callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-lg-offset-0 col-xl-offset-0">
+
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/survey.svg" alt="Survey"> 
+                    </div> 
+                    
+                    <h5>Survey</h5>
+                    <p>After submitting the request, it allows organizing the survey</p>
+
+                </div>
+
+                <div class="react-reveal Metrics Measured callout col-xs-offset-2 col-xs-8 col-sm-offset-0 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-md-offset-0 col-md-offset-0 col-lg-offset-0 col-xl-offset-0"> 
+                    <div class="callout-image-container undefined"> 
+                        <img src="./assets/static/media/shin_pie.svg" alt="Insights"> 
+                    </div> 
+                    <h5>Collecting Data</h5> 
+                    <p>The developer can then collect the data and generate the insights</p> 
+                </div> 
+            </div>
+
+            <div class="one-margin-top row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img class="feature-image" src="./assets/static/media/shin_wire.png" alt="Low-fi for the process">
+                </div>
+            </div> 
+
+            <div class=" row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The low-fidelity for the design of experience</p>
+            </div>
+
+        <div class=" row"> 
+             <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Hi-fidelity Design</h4> 
+        </div>
+
+            <div class=" row"> 
+                <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">We consulted the SAGA development and made sure that every step is reasonable. After that, I then turned into high-fidelity design.</p> 
+            </div>
+
+            <div class="one-margin-top row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img class="feature-image" src="./assets/static/media/shin_hi_01.png" alt="Hi-fi for onboarding">
+                </div>
+            </div> 
+
+            <div class=" row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Onboarding of the Shinshilla – you can choose as a developer role at the very beginning</p>
+            </div>
+
+            <div class="one-margin-top row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <img class="feature-image" src="./assets/static/media/shin_hi_02.png" alt="Hi-fi for launching a project">
+                </div>
+            </div> 
+
+            <div class=" row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">This series of the design illustrates how the specific data that the citizens have asked are documented in the system and the project is submitted to the planning bureau</p>
+            </div>
+
+            <div class=" row"> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                    <div class="button outline purple"> 
+                        <a href="https://youtu.be/5Un92AwvrMc", target="_blank"> 
+                        <span>See the prototype</span> 
+                        </a> 
+                    </div> 
+                </div> 
+            </div> 
+ 
+        </span> 
+    </div> 
+</div>
+
+<div class="project-section Evaluate"> 
+    <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Present</h3> 
+    </div>
+
+    <div class="project-section-content"> 
+    <span>
+        <div class=" row"> 
+             <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Showcase</h4> 
+        </div>
+
+        <div class=" row">
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Once we had the prototype, I participated in the annual IDEAS conference for social innovation. We showcased the prototype and interacted with the audience. The idea of Shinshilla was highly welcomed, and people also mentioned that in many U.S. cities, there's also a solid need for a participatory design tool for community engagement. Some quotes of the visitors as the following:</p> 
+        </div>
+
+        <div class=" row">
+            <p class="quote col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 col-xl-offset-4 col-xl-4">“It is an awesome idea and I really like this product! We should use it when they are trying to pull down that old bridge <i>(the Longfellow Bridge)</i>!”</p>
+        </div>
+
+       <div class="row one-margin-top">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="feature-image" src="./assets/static/media/shin_ideas_01.png" alt="IDEAS 01">
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="feature-image" src="./assets/static/media/shin_ideas_02.png" alt="IDEAS 02">
+            </div>
+        </div>
+
+        <div class="one-margin-bottom row">
+            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">I was presenting the demo of Shinshilla at the IDEAS conference for the public</p>
+        </div>
+
+        <div class=" row"> 
+             <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Exhibition</h4> 
+        </div>
+           
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">After the showcase and test with the users, I also helped the Urban Curators to prepare the <b>CAN Festival</b> in Kyiv. During this festival, we displayed the previous user research work including survey, the data visualization, and the product design. I was involved in designing a digital and physical map installation to collect the visitors' sentimental opinion towards the places in Kyiv. I scraped many old photos for the participants to label on the map, attached with their personal experience.
+            </p> 
+        </div>
+
+        <div class="one-margin-top row">
+            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">      
+                <img class="feature-image" src="./assets/static/media/shin_can_01.png" alt="Map sketch">
+            </div>
+        </div> 
+
+        <div class="one-margin-bottom row">
+            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The sketch of the map installation</p>
+        </div>
+
+        <div class="one-margin-top row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img class="feature-image" src="./assets/static/media/shin_can_02.png" alt="People are playing with map">
+            </div>
+        </div> 
+
+        <div class="one-margin-bottom row">
+            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">People are playing with map installation</p>
+        </div>
+
+        <div class=" row">
+                <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">This series of the design illustrates how the specific data that the citizens have asked are documented in the system and the project is submitted to the planning bureau</p>
+        </div>
+
+        <div class=" row"> 
+          <h4 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Interface</h4>
+        </div>
+
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">During the exhibition, I also designed a Processing-based interface for the visitors to enter their opinions towards specific places in Kyiv. The project <b>Map Me Happy</b> helps to collect qualitative data. The color corresponds to the grading of the three-dimensional matrix - live, work, and play. I aimed to provide a playful experience for visitors to exchange ideas through this media. A design agency can also export dataset and perform further analysis.</p>
+        </div>
+
+        <div class="one-margin-top row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <img class="feature-image" src="./assets/static/media/shin_interface.png" alt="Map Me Happy Interface">
+            </div>
+        </div>
+
+        <div class="one-margin-bottom row">
+            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The Map Me Happy interface</p>
+        </div> 
+
+             <div class=" row"> 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 button-wrapper"> 
+                    <div class="button outline purple"> 
+                        <a href="https://youtu.be/5Slwh_bYDv4", target="_blank"> 
+                        <span>See the prototype</span> 
+                        </a> 
+                    </div> 
+                </div> 
+            </div>
+
+
+       </span>         
+    </div> 
+</div>
+
+
+ <div class="project-section Conclusion"> 
+    <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Lessons Learned</h3> 
+    </div> 
+    <div class="project-section-content"> 
+    <span> 
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Reflecting the nine-month design research regarding Podil’s future urban development, it is a unique learning experience-I identified the problem by the careful on-site observation/investigation and holistic user research and proposed a data-driven diagnose and human-centered design. Since the project is for the public, I also made all the steps and resources public and transparent.</p> 
+        </div>
+
+        <div class="one-margin-top row">
+            <div class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 problem-image">  
+                <img class="feature-image" src="./assets/static/media/shin_summary.png" alt="Public resource">
+            </div>
+        </div>
+
+        <div class="one-margin-bottom row">
+            <p class="caption col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">The summary of my code and data</p>
+        </div> 
+
+        <div class=" row"> 
+            <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">During the several rounds of the pitch, I also realized that the problem that I found can also be applied to other places. In this way, to make the product scalable is very important. In a further development, we can make the product as different modules, with the flexible ones responsive to specific conditions. We are currently raising funding from SAGA development and would like to see this project realized in the future.</p> 
+        </div> 
+
+    </span> 
+    </div> 
+ </div>
+
+ <div class="project-section Links"> 
+    <div class="row"> 
+        <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Links</h3> 
+    </div> 
+         <div class="project-section-content"> 
+             <div class=" row"> 
+                 <p class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6 links"> 
+                    <a href="https://drive.google.com/file/d/1buXhHdgXk65-jtiHi3-l94s12qiK24AO/view?usp=sharing" target="_blank">Ukraine Social Media Study </a>
+                    <a href="https://youtu.be/5Un92AwvrMc" target="_blank">Demo</a>
+                    <a href="https://www.notion.so/PODIL-S-WEATHER-MAP-b7acae0f191e48b09c7591be91371857" target="_blank">Code</a> 
+                 </p>
+             </div> 
+         </div> 
+ </div>
+
+ </span> 
+ </div>
+
+ <div class="row next-project"> 
+    <h3 class="col-xs-12 col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2dot5 col-lg-7 col-xl-offset-3 col-xl-6">Next Project</h3> 
+ </div> 
+ <div class="HiCraft Project"> 
+    <div class="row"> 
+        <div class="col-xs-12 col-sm-10 col-md-10 col-lg-offset-0 col-lg-8 col-xl-offset-1 col-xl-7"> 
+            <img class="project-image" src="./assets/static/media/HiCraft_Cover.jpg" alt="HiCraft App"> 
+        </div> 
+    </div> 
+ <div class="row"> 
+    <div class="col-xs-12 col-sm-offset-2 col-sm-10 col-md-offset-4 col-md-8 col-lg-offset-6 col-lg-6 col-xl-5"> 
+        <div class="Plx Plx--below plx" style="transform: translateY(-100px); opacity: 1;"> 
+            <a class="project-link-container" href="./hicraft.html"> 
+                <div class="project-blurb red">  
+                    <h2>HiCraft</h2> 
+                    <p>A crowdsourcing product for folk art sharing, learning empowered by blockchain.</p> 
+                    <div class="bottom"> 
+                        <div class="next navbar-link red"> 
+                            <a href="./hicraft.html">Case Study</a> 
+                            <span class="isvg loaded next-arrow"> 
+                                <svg id="Layer_1___-1412094391" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.25 5.69"> 
+                            <title>arrow-slim</title> 
+ <polygon points="6.81 2.86 4.85 4.97 4.33 4.49 5.6 3.12 0.38 3.12 0.38 2.37 5.6 2.37 4.42 1.09 4.94 0.61 6.81 2.62 6.81 2.86"> 
+ </polygon> 
+ </svg> 
+ </span> 
+ </div> 
+ </div> 
+ </div> 
+ </a> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+ </div> 
+
+ <div> 
+ <div data-reactroot=""> 
+ <style>
+				.fade-enter { opacity: 0.01; }
+				.fade-enter.fade-enter-active { opacity: 1; transition: opacity 200ms; }
+				.fade-leave { opacity: 1; }
+				.fade-leave.fade-leave-active { opacity: 0.01; transition: opacity 200ms; }
+		</style> 
+ <div> 
+ <span> 
+ </span> 
+ </div> 
+ </div> 
+ </div> 
+ 
+ </body> 
+ <div id="piggyWrapper" style="position: fixed; top: 0px; right: 0px; line-height: initial; z-index: 2147483647; width: auto; font-family: &quot;Open Sans&quot;, sans-serif; font-size: initial; display: block;"> 
+ </div> 
+ </html>
