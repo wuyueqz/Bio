@@ -274,7 +274,9 @@
 .HiCraft b{color:#8da3b0}
 .HiCraft .nav .navbar-link:hover svg{fill:#8da3b0}
 .HiCraft p a:after{background:rgba(252,241,19,.6)}
-.HiCraft .project-section .feature-image.solution,.MoMentor .project-section .feature-image.MoMentor-preview{-webkit-box-shadow:none;box-shadow:none}
+.HiCraft .project-section .feature-image.solution,
+.MoMentor .project-section .feature-image.MoMentor-preview{-webkit-box-shadow:none;box-shadow:none}
+
 
 .Colette .project-section .feature-image.solution,
 .Colette .project-section .feature-image.Colette-preview{-webkit-box-shadow:none;box-shadow:none}
@@ -287,6 +289,19 @@
 .Colette b{color:#394750}
 .Colette .highlight{color:#394750;font-weight:700}
 .Colette p a:after{background:rgba(252,241,19,.6)}
+
+.Floe .project-section .feature-image-preproblem{max-width:100%;height:auto;-webkit-box-shadow:none;box-shadow:none},
+.Floe .project-section .feature-image.solution,
+.Floe .project-section .feature-image.Floe-preview{-webkit-box-shadow:none;box-shadow:none}
+.Floe .project-section .inline-svg{display:-ms-inline-flexbox;display:inline-flex}
+.Floe .project-section .inline-svg svg{height:15px}
+.Floe .project-section .acclaim{-webkit-box-shadow:none;box-shadow:none}
+.Floe .nav .navbar-link:hover,
+.Floe .nav .navbar-link:hover a{color:#394750}
+.Floe .nav .navbar-link:hover svg{fill:#394750}
+.Floe b{color:#394750}
+.Floe .highlight{color:#394750;font-weight:700}
+.Floe p a:after{background:rgba(208,206,245,.9)}
 
 .About .content{padding-top:60px}
 .About .content .my-photo-container{text-align:center}
